@@ -4858,10 +4858,10 @@ react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-native-translucent-modal@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/react-native-translucent-modal/-/react-native-translucent-modal-1.0.1.tgz#fb61408ec18f3e0c413e7b2cbfd7dae2a358c132"
-  integrity sha512-OFxS2AbnYlfWNe+fa3Gc2+uyccRgKxsArzuVlSXhUo/0qW1yNKZFUCtFvSHps2mjSYspplpKIlemUn0UIET60Q==
+react-native-translucent-modal@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/react-native-translucent-modal/-/react-native-translucent-modal-1.0.2.tgz#c921cb42c826c280fb87966fe54712210be85cd3"
+  integrity sha512-qBzKNhsxi6nI5K50aTRKP2urBjKyb3QsRp8tLzTEtaa6kaEbbBbmIK5ur7dWZLbLKZSt5rXZSUDK4yBstwJBDA==
 
 react-native@0.59.9:
   version "0.59.9"

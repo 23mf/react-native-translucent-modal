@@ -24,15 +24,6 @@ class TranslucentModalHostShadowNode extends LayoutShadowNode {
 
   public TranslucentModalHostShadowNode() {}
 
-  private TranslucentModalHostShadowNode(TranslucentModalHostShadowNode node) {
-    super(node);
-  }
-
-  @Override
-  public TranslucentModalHostShadowNode copy() {
-    return new TranslucentModalHostShadowNode(this);
-  }
-
   /**
    * We need to set the styleWidth and styleHeight of the one child (represented by the <View/>
    * within the <RCTModalHostView/> in Modal.js. This needs to fill the entire window.

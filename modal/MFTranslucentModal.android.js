@@ -1,12 +1,12 @@
-const AppContainer = require('AppContainer');
-const I18nManager = require('I18nManager');
-const Platform = require('Platform');
-const React = require('React');
-const PropTypes = require('prop-types');
-const StyleSheet = require('StyleSheet');
-const View = require('View');
-
-const requireNativeComponent = require('requireNativeComponent');
+import React from 'react';
+import {
+  I18nManager,
+  Platform,
+  StyleSheet,
+  View,
+  requireNativeComponent,
+} from 'react-native';
+import PropTypes from'prop-types';
 
 const RCTModalHostView = requireNativeComponent('RCTTranslucentModalHostView', null);
 
@@ -86,11 +86,7 @@ class Modal extends React.Component {
       animationType = 'none';
     }
 
-    const innerChildren = __DEV__ ?
-      (<AppContainer rootTag={this.context.rootTag}>
-        {this.props.children}
-      </AppContainer>) :
-      this.props.children;
+    const innerChildren = this.props.children;
 
     return (
       <RCTModalHostView
