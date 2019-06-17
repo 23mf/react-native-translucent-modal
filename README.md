@@ -7,11 +7,11 @@ react-native 提供的`Modal`组件在Android上显示时不能延伸到状态�
 ### 效果对比
 
 使用`react-native-translucent-modal`之前：
-![before1](/screen-shot/screenshot-before.jpg)
+![before1](/screen-shot/screenshot-before.jpg){:height="50%" width="50%"}
 
 使用`react-native-translucent-modal`之后：
 
-![after1](/screen-shot/screenshot-after.jpg)
+![after1](/screen-shot/screenshot-after.jpg){:height="50%" width="50%"}
 
 ### Setup
 
