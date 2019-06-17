@@ -1,0 +1,5 @@
+rootProject.name = 'Example'
+include ':react-native-translucent-modal'
+project(':react-native-translucent-modal').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-translucent-modal/android')
+
+include ':app'

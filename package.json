@@ -1,0 +1,19 @@
+{
+  "name": "react-native-translucent-modal",
+  "version": "1.0.1",
+  "description": "translucent modal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/23mf/react-native-translucent-modal.git"
+  },
+  "author": "zhouwei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/23mf/react-native-translucent-modal/issues"
+  },
+  "homepage": "https://github.com/23mf/react-native-translucent-modal#readme"
+}
