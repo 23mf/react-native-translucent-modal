@@ -17,7 +17,7 @@ react-native 提供的`Modal`组件在Android上显示时不能延伸到状态�
 
 `弹窗：`
 
-<img src="/screen-shot/screenshot-pop-before.jpg" width = "50%" height = "70%" alt="before1" align=center />
+<img src="/screen-shot/screenshot-pop-before.jpg" width = "50%" height = "70%" alt="pop1" align=center />
 
 >
 
@@ -30,7 +30,7 @@ react-native 提供的`Modal`组件在Android上显示时不能延伸到状态�
 >
 `弹窗`:
 
-<img src="/screen-shot/screenshot-pop-after.jpg" width = "50%" height = "70%" alt="after1" align=center />
+<img src="/screen-shot/screenshot-pop-after.jpg" width = "50%" height = "70%" alt="after-pop1" align=center />
 
 ### 安装
 

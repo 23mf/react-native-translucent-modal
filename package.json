@@ -1,8 +1,13 @@
 {
   "name": "react-native-translucent-modal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a translucent modal",
   "main": "index.js",
+  "keywords": [
+    "react-native-modal",
+    "modal-dialog",
+    "modal-statusbar"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
