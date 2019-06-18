@@ -37,7 +37,7 @@ react-native 提供的`Modal`组件在Android上显示时不能延伸到状态�
 1、使用npm
 
 ```
-$ npm install react-native-translucent-modal -save
+$ npm install react-native-translucent-modal --save
 ```
 
 或使用yarn
@@ -49,7 +49,7 @@ $ yarn add react-native-translucent-modal
 2、然后link
 
 ```
-$ react-native react-native-translucent-modal
+$ react-native link react-native-translucent-modal
 ```
 
 ### 使用

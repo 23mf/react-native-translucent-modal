@@ -39,7 +39,7 @@ After using `react-native-translucent-modal`：
 1、Use npm
 
 ```
-$ npm install react-native-translucent-modal -save
+$ npm install react-native-translucent-modal --save
 ```
 
 Or use yarn
@@ -51,7 +51,7 @@ $ yarn add react-native-translucent-modal
 2、then link
 
 ```
-$ react-native react-native-translucent-modal
+$ react-native link react-native-translucent-modal
 ```
 
 ### Usage
