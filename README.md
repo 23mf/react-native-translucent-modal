@@ -1,36 +1,54 @@
 # react-native-translucent-modal
-A library for React Native translucent modal
+A library for React Native Translucent Modal On Android
 
-### 背景
-react-native 提供的`Modal`组件在Android上显示时不能延伸到状态栏，为什呢？ 这与Android的原生实现有关，`Modal`组件对应到Android原生是用`Dialog`实现，因为 dialog 本身也不会延伸到状态栏的。如何让`Modal`在Android 上的显示效果能像在ios 设备上一样呢？这就是本库所提供的。使用很简单，只需要一行代码即可。
+Chinese introduction：
+[中文文档介绍](/README-zh-rCN.md)
 
-### 效果对比
+### Background
+The `Modal` component provided by `react-native` does not extend to the status bar when displayed on Android. Why? This is related to the native implementation of Android. The `Modal` component corresponds to Android native implementation with `Dialog`, because the dialog itself does not extend to the status bar. How can I make `Modal` appear on Android like on an iOS device? This is what the library provides. It's very simple to use, just one line of code.
 
-使用`react-native-translucent-modal`之前：
+### Effect comparison
+
+Before using `react-native-translucent-modal`：
+
+`splash`:
 
 <img src="/screen-shot/screenshot-before.jpg" width = "50%" height = "70%" alt="before1" align=center />
 
 >
-使用`react-native-translucent-modal`之后：
 
+`Pop：`
+
+<img src="/screen-shot/screenshot-pop-before.jpg" width = "50%" height = "70%" alt="before1" align=center />
+
+>
+
+After using `react-native-translucent-modal`：
+
+`splash`:
 
 <img src="/screen-shot/screenshot-after.jpg" width = "50%" height = "70%" alt="after1" align=center />
 
+>
+`Pop`:
+
+<img src="/screen-shot/screenshot-pop-after.jpg" width = "50%" height = "70%" alt="after1" align=center />
+
 ### Setup
 
-1、使用npm
+1、Use npm
 
 ```
 $ npm install react-native-translucent-modal -save
 ```
 
-或使用yarn
+Or use yarn
 
 ```
 $ yarn add react-native-translucent-modal
 ```
 
-2、然后link
+2、then link
 
 ```
 $ react-native react-native-translucent-modal
@@ -38,19 +56,23 @@ $ react-native react-native-translucent-modal
 
 ### Usage
 
-`react-native-translucent-modal` 的使用与 react-native 提供`Modal`的组件完全一样，他们的属性和方法完全相同，你只需要将`Modal`的引入方式更改一下即可，其他的完全不用变
+The use of `react-native-translucent-modal` is exactly the same as that of the react-native providing `Modal`. Their properties and methods are exactly the same. You only need to change the import of `Modal`, the other is completely Don't change
 
 ```
 import { Modal } from "react-native";
 ```
 
-改为
+change to
 
 ```
 import Modal from 'react-native-translucent-modal';
 ```
 
-好了，就只需要更改这一行代码，你的`Modal`现在就可以延伸到状态栏了。
+Ok, just change this line of code, your `Modal` can now be extended to the status bar.
+
+On iOS devices, the `Modal` component provided by react native is still used., you can view the `MFTranslucentModal.ios.js` file for detail.
 
 
+### Thanks 
 
+thanks [react-native-modal-translucent](https://github.com/listenzz/react-native-modal-translucent) library for providing ideas
