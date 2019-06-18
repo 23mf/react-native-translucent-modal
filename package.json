@@ -1,7 +1,7 @@
 {
   "name": "react-native-translucent-modal",
-  "version": "1.0.3",
-  "description": "a translucent modal",
+  "version": "1.1.0",
+  "description": "A library for React Native Translucent Modal On Android",
   "main": "index.js",
   "keywords": [
     "react-native-modal",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/23mf/react-native-translucent-modal/issues"
   },
-  "homepage": "https://github.com/23mf/react-native-translucent-modal#readme"
+  "homepage": "https://github.com/23mf/react-native-translucent-modal#readme",
+  "files": [
+    "android",
+    "modal",
+    "index.js",
+    "package.json"
+  ]
 }
